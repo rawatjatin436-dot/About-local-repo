@@ -1,0 +1,119 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e9f1ff;
+}
+
+/* White Box */
+.form-contaner {
+  width: 360px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+  transition: 0.4s;
+  border: 2px solid transparent;
+
+}
+input:hover {
+  border-color: darkblue;
+  box-shadow: 0 0 8px rgba(79, 152, 255, 0.25);
+}
+
+.form-contaner:hover {
+  border-color: #7fb3ff; /* light blue border glow */
+  box-shadow: 0 0 30px rgba(79, 152, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+
+/* Toggle Buttons */
+.form-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-toggle button {
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  background: #d6e6ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-toggle button.active {
+  background: #033452;
+  color: white;
+}
+
+/* Form Box */
+.form, .from {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+/* Heading */
+.form h2,
+.from h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #033452;
+}
+
+/* Inputs */
+input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #bec7d6;
+  outline: none;
+  transition: 0.2s;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #033452;
+}
+
+/* Buttons */
+button {
+  background: #033452;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #022a41;
+  box-shadow: 0 0 10px rgba(3, 52, 82, 0.35);
+  transform: scale(1.02);
+}
+
+/* Links */
+a {
+  font-size: 14px;
+  color: #033452;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+p a {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
